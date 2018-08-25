@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Mini-bager levice - @yield('title')</title>
+        <style type="text/css" href="{{ asset('css/styles.css') }}"></style>
     </head>
     <body>
 
@@ -20,7 +21,7 @@
 
         <footer id="main-footer">
             
-            
+
 
         </footer>
 
