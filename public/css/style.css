@@ -11,9 +11,12 @@ body {
 #main-header {
 	background: #000;
 	height: 135px;
+	border-bottom: 7px solid #fbc11f!important;
+	box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 3px;
 }
 
 #main-footer {
 	background: #000;
 	height: 230px;
+	border-top: 7px solid #fbc11f!important;
 }
