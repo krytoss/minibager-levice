@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Mini-bager levice - @yield('title')</title>
-        <style type="text/css" href="{{ asset('css/style.css') }}"></style>
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
     </head>
     <body>
 
