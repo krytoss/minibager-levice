@@ -1,15 +1,28 @@
 <html>
     <head>
-        <title>App Name - @yield('title')</title>
+        <title>Mini-bager levice - @yield('title')</title>
     </head>
     <body>
-        @section('sidebar')
-            This is the master sidebar.
-        @show
 
-        <div class="container">
-            @yield('content')
-        </div>
-        
+        <header id="main-header">
+            
+        </header>
+
+        <main>
+
+            <div class="container">
+
+                @yield('content')
+
+            </div>
+
+        </main>
+
+        <footer id="main-footer">
+            
+            
+
+        </footer>
+
     </body>
 </html>
