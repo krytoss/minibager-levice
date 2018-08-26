@@ -84,6 +84,7 @@ h2.title:after {
     font-size: 18px;
     font-weight: 400;
     letter-spacing: -1px;
+    display: block;
 }
 
 #main-menu ul li a:hover {

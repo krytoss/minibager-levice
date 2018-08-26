@@ -14,8 +14,20 @@
                 
                 <ul>
                     
-                    <li><a href="#">SLUŽBY</a></li>
-                    <li><a href="#">TECHNIKA</a></li>
+                    <li>
+                        <a href="#">
+                            <span class="menu-text">
+                                SLUŽBY
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="menu-text">
+                                TECHNIKA
+                            </span>
+                        </a>
+                    </li>
 
                 </ul>
 
