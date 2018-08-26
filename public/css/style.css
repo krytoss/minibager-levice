@@ -51,20 +51,20 @@ h2.title:after {
 ***************************
 **************************/
 
-.menu ul {
+.menu > ul {
 	list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.menu ul li {
+.menu > ul > li {
 	margin: 0;
     padding: 0;
     position: relative;
     cursor: pointer;
 }
 
-.menu.horizontal ul li {
+.menu.horizontal > ul > li {
 	float: left;
 }
 
@@ -76,7 +76,11 @@ h2.title:after {
     overflow: hidden;
 }
 
-#main-menu ul li a {
+#main-menu > ul > li {
+	padding-right: 45px;
+}
+
+#main-menu > ul > li > a {
 	border-top: 3px solid transparent;
     height: 50px;
     line-height: 50px;
@@ -87,6 +91,6 @@ h2.title:after {
     display: block;
 }
 
-#main-menu ul li a:hover {
+#main-menu > ul > li > a:hover {
 	border-top: 3px solid #fbc11f;
 }
