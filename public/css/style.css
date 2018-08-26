@@ -123,3 +123,7 @@ h2.title:after {
 .phone a {
 	color: white;
 }
+
+.phone a:hover {
+	color: #fbc11f;
+}
