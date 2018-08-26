@@ -14,19 +14,6 @@ a {
 	margin: 0 auto;
 }
 
-#main-header {
-	background: #000;
-	height: 135px;
-	border-bottom: 7px solid #fbc11f!important;
-	box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 3px;
-}
-
-#main-footer {
-	background: #000;
-	height: 230px;
-	border-top: 7px solid #fbc11f!important;
-}
-
 h2.title {
 	font-size: 30px;
     font-weight: 600;
@@ -42,6 +29,32 @@ h2.title:after {
     display: block;
     height: 2px;
     width: 180px;
+}
+
+
+/**************************
+***************************
+*        MAIN PARTS       *
+***************************
+**************************/
+
+#main-header {
+	background: #000;
+	height: 135px;
+	border-bottom: 7px solid #fbc11f!important;
+	box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 3px;
+	position: fixed;
+	width: 100%;
+}
+
+#main-content {
+	
+}
+
+#main-footer {
+	background: #000;
+	height: 230px;
+	border-top: 7px solid #fbc11f!important;
 }
 
 

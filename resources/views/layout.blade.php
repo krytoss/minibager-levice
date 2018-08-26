@@ -40,7 +40,7 @@
 
         </header>
 
-        <main>
+        <main id="main-content">
 
             <div class="container">
 
