@@ -9,6 +9,17 @@
 
         <header id="main-header">
             
+            <div id="main-menu" class="menu">
+                
+                <ul>
+                    
+                    <li><a href="#">SLUŽBY</a></li>
+                    <li><a href="#">TECHNIKA</a></li>
+
+                </ul>
+
+            </div>
+
         </header>
 
         <main>
@@ -23,7 +34,7 @@
 
         <footer id="main-footer">
             
-            
+
 
         </footer>
 
