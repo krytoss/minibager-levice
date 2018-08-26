@@ -9,6 +9,10 @@
     <body>
 
         <header id="main-header">
+
+            <div class="phone">
+                <i class="fa fa-mobile" aria-hidden="true"></i><a href="tel:+421903222333">0912 345 678</a>
+            </div>
             
             <div id="main-menu" class="menu horizontal">
                 

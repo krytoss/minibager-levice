@@ -94,3 +94,32 @@ h2.title:after {
 #main-menu > ul > li > a:hover {
 	border-top: 3px solid #fbc11f;
 }
+
+/**************************
+***************************
+*         CLASSES         *
+***************************
+**************************/
+
+.phone {
+	position: fixed;
+    top: 15px;
+    color: white;
+    z-index: 99999;
+    right: 46px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.phone .fa {
+	border: 3px solid #fbc11f;
+    border-radius: 22px;
+    padding: 0px 11px;
+    color: #fbc11f;
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+.phone a {
+	color: white;
+}
