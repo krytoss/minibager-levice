@@ -81,6 +81,9 @@ h2.title:after {
     height: 50px;
     line-height: 50px;
     color: #fbc11f;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -1px;
 }
 
 #main-menu ul li a:hover {

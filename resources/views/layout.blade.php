@@ -9,7 +9,7 @@
 
         <header id="main-header">
             
-            <div id="main-menu" class="menu">
+            <div id="main-menu" class="menu horizontal">
                 
                 <ul>
                     
