@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Mini-bager levice - @yield('title')</title>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900&amp;subset=latin-ext" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/css/bootstrap.min.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/css/bootstrap-grid.min.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
