@@ -26,10 +26,27 @@
                             </span>
                         </a>
                     </li>
+
                     <li>
                         <a href="#">
                             <span class="menu-text">
                                 TECHNIKA
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <span class="menu-text">
+                                CENNÍK
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <span class="menu-text">
+                                KONTAKT
                             </span>
                         </a>
                     </li>
@@ -42,17 +59,19 @@
 
         <main id="main-content">
 
-            <div class="container">
-
-                @yield('content')
-
-            </div>
+            @yield('content')
 
         </main>
 
         <footer id="main-footer">
             
+            <div class="container">
+                
+                <h2 class="title">
+                    Kontakt
+                </h2>
 
+            </div>
 
         </footer>
 

@@ -5,7 +5,8 @@ body {
 	font-family: 'Source Sans Pro';
 }
 
-a {
+a,
+a:hover {
 	text-decoration: none;
 }
 
@@ -19,6 +20,9 @@ h2.title {
     font-weight: 600;
     line-height: 1.5;
     letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
 }
 
 h2.title:after {
@@ -45,6 +49,7 @@ h2.title:after {
 	box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 3px;
 	position: fixed;
 	width: 100%;
+	z-index: 999;
 }
 
 #main-content {
@@ -55,6 +60,15 @@ h2.title:after {
 	background: #000;
 	height: 230px;
 	border-top: 7px solid #fbc11f!important;
+	padding: 20px 0;
+}
+
+#main-footer h2.title {
+	color: #fbc11f;
+}
+
+#main-footer h2.title:after {
+	background: linear-gradient(to right, #000 0%, #fbc11f 50%, #000 100%);
 }
 
 
@@ -99,7 +113,7 @@ h2.title:after {
     line-height: 50px;
     color: #fbc11f;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: -1px;
     display: block;
 }
@@ -110,9 +124,28 @@ h2.title:after {
 
 /**************************
 ***************************
+*        SECTIONS         *
+***************************
+**************************/
+
+.section {
+	padding: 50px 0;
+}
+
+
+/**************************
+***************************
 *         CLASSES         *
 ***************************
 **************************/
+
+.yellow-bg {
+	background: #fbc11f;
+}
+
+.yellow-bg h2.title:after {
+	background: linear-gradient(to right, #fbc11f 0%, #fff 50%, #fbc11f 100%);
+}
 
 .phone {
 	position: fixed;
@@ -139,4 +172,80 @@ h2.title:after {
 
 .phone a:hover {
 	color: #fbc11f;
+}
+
+.service-icon,
+.service-icon-wrapper {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.service-icon {
+	height: 130px;
+}
+
+p.icon-text {
+	text-transform: uppercase;
+	text-align: center;
+	margin: 20px 0 0;
+	padding: 0;
+	font-weight: 600;
+}
+
+.service-icon-wrapper:hover p.icon-text {
+	color: #fbc11f !important;
+}
+
+.vykopove {
+	background: url(../img/sluzby.png) 0 0 repeat-y;
+    background-position: 0 0;
+}
+
+.service-icon-wrapper:hover .vykopove {
+	background-position: 0 -130px;
+}
+
+.uprava {
+	background: url(../img/sluzby.png) 0 0 repeat-y;
+    background-position: -200px 0;
+}
+
+.service-icon-wrapper:hover .uprava {
+	background-position: -200px -130px;
+}
+
+.rucne {
+	background: url(../img/sluzby.png) 0 0 repeat-y;
+    background-position: -400px 0;
+}
+
+.service-icon-wrapper:hover .rucne {
+	background-position: -400px -130px;
+}
+
+.demolacne {
+	background: url(../img/sluzby.png) 0 0 repeat-y;
+    background-position: -600px 0;
+}
+
+.service-icon-wrapper:hover .demolacne {
+	background-position: -600px -130px;
+}
+
+.dovoz {
+	background: url(../img/sluzby.png) 0 0 repeat-y;
+    background-position: -800px 0;
+}
+
+.service-icon-wrapper:hover .dovoz {
+	background-position: -800px -130px;
+}
+
+.odvoz {
+	background: url(../img/sluzby.png) 0 0 repeat-y;
+    background-position: -1000px 0;
+}
+
+.service-icon-wrapper:hover .odvoz {
+	background-position: -1000px -130px;
 }
