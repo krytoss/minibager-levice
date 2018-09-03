@@ -1,3 +1,9 @@
+/**************************
+***************************
+*      GENERAL STYLE      *
+***************************
+**************************/
+
 html,
 body {
 	margin: 0;
@@ -8,11 +14,6 @@ body {
 a,
 a:hover {
 	text-decoration: none;
-}
-
-.container {
-	width: 90%;
-	margin: 0 auto;
 }
 
 h2.title {
@@ -33,6 +34,41 @@ h2.title:after {
     display: block;
     height: 2px;
     width: 180px;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.light {
+	font-weight: 300;
+	color: #6a6a6a;
+}
+
+.yellow-bg {
+	background: #fbc11f;
+}
+
+.yellow-bg h2.title:after {
+	background: linear-gradient(to right, #fbc11f 0%, #fff 50%, #fbc11f 100%);
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.cover-img {
+  object-fit: cover;
+  width: 100%;
 }
 
 
@@ -84,6 +120,19 @@ h2.title:after {
 
 #main-footer h2.title:after {
 	background: linear-gradient(to right, #000 0%, #fbc11f 50%, #000 100%);
+}
+
+#machinery .col,
+#machinery .col img {
+	height: 300px;
+}
+
+#machinery .row {
+	margin: 25px 0;
+}
+
+#pricelist .pricelist-wrapper .row {
+	margin: 10px 0;
 }
 
 
@@ -153,14 +202,6 @@ h2.title:after {
 *         CLASSES         *
 ***************************
 **************************/
-
-.yellow-bg {
-	background: #fbc11f;
-}
-
-.yellow-bg h2.title:after {
-	background: linear-gradient(to right, #fbc11f 0%, #fff 50%, #fbc11f 100%);
-}
 
 .phone {
 	position: fixed;

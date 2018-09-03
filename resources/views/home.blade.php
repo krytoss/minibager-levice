@@ -193,6 +193,38 @@
     		
     		<h2 class="title">Technika</h2>
 
+            <div class="row">
+
+                <div class="col col-md-4">
+                    <img src="{{ asset('img/machinery/01.jpg') }}" class="cover-img">
+                </div>
+                
+                <div class="col col-md-4">
+                    <img src="{{ asset('img/machinery/02.jpg') }}" class="cover-img">
+                </div>
+                
+                <div class="col col-md-4">
+                    <img src="{{ asset('img/machinery/03.jpg') }}" class="cover-img">
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col col-md-4">
+                    <img src="{{ asset('img/machinery/04.jpg') }}" class="cover-img">
+                </div>
+                
+                <div class="col col-md-4">
+                    <img src="{{ asset('img/machinery/05.jpg') }}" class="cover-img">
+                </div>
+                
+                <div class="col col-md-4">
+                    <img src="{{ asset('img/machinery/06.jpg') }}" class="cover-img">
+                </div>
+
+            </div>
+
     	</div>
     </div>
 
@@ -208,6 +240,74 @@
     	<div class="container">
     		
     		<h2 class="title">Cenník</h2>
+
+            <div class="pricelist-wrapper">
+                
+                <div class="row">
+                    <div class="col col-md-4 bold">Minibager 3,5t</div>
+
+                    <div class="col col-md-4 bold text-center">28€/hod</div>
+
+                    <div class="col col-md-4 light text-right">cena je uvedená bez DPH</div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-md-4 bold">Minibager 1,6t</div>
+
+                    <div class="col col-md-4 bold text-center">20€/hod</div>
+
+                    <div class="col col-md-4 light text-right">cena je uvedená bez DPH</div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-md-4 bold">Šmykový nakladač</div>
+
+                    <div class="col col-md-4 bold text-center">25€/hod</div>
+
+                    <div class="col col-md-4 light text-right">cena je uvedená bez DPH</div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-md-4 bold">Minibager 3,5t s kladivom</div>
+
+                    <div class="col col-md-4 bold text-center">35€/hod</div>
+
+                    <div class="col col-md-4 light text-right">cena je uvedená bez DPH</div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-md-4 bold">Nákladné auto</div>
+
+                    <div class="col col-md-4 bold text-center">dohodou</div>
+
+                    <div class="col col-md-4 light text-right"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-md-4 bold">Hútniaca doska 300kg</div>
+
+                    <div class="col col-md-4 bold text-center">50€/deň</div>
+
+                    <div class="col col-md-4 light text-right">cena je uvedená bez DPH</div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-md-4 bold">Hútniaca doska 100kg</div>
+
+                    <div class="col col-md-4 bold text-center">30€/deň</div>
+
+                    <div class="col col-md-4 light text-right">cena je uvedená bez DPH</div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-md-4 bold">Hútniaca noha</div>
+
+                    <div class="col col-md-4 bold text-center">30€/deň</div>
+
+                    <div class="col col-md-4 light text-right">cena je uvedená bez DPH</div>
+                </div>
+
+            </div>
 
     	</div>
     </div>
