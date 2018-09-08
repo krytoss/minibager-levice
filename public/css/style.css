@@ -234,6 +234,7 @@ h2.title:after {
 .service-icon-wrapper {
     width: 200px;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .service-icon {

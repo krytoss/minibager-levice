@@ -20,7 +20,7 @@
                 <ul>
                     
                     <li>
-                        <a href="#">
+                        <a href="#services" class="anchor">
                             <span class="menu-text">
                                 SLUŽBY
                             </span>
@@ -28,7 +28,7 @@
                     </li>
 
                     <li>
-                        <a href="#">
+                        <a href="#machinery" class="anchor">
                             <span class="menu-text">
                                 TECHNIKA
                             </span>
@@ -36,7 +36,15 @@
                     </li>
 
                     <li>
-                        <a href="#">
+                        <a href="#references" class="anchor">
+                            <span class="menu-text">
+                                REFERENCIE
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#pricelist" class="anchor">
                             <span class="menu-text">
                                 CENNÍK
                             </span>
@@ -44,7 +52,7 @@
                     </li>
 
                     <li>
-                        <a href="#">
+                        <a href="contact">
                             <span class="menu-text">
                                 KONTAKT
                             </span>
@@ -123,6 +131,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
 
     </body>
 </html>

@@ -12,7 +12,7 @@
     			
     			<div class="col col-md-4">
 
-    				<div class="service-icon-wrapper">
+    				<div class="service-icon-wrapper anchor" data-href="#carousel" data-target="#servicesCarousel" data-slide-to="0">
 
     					<div class="service-icon vykopove">
     					
@@ -28,7 +28,7 @@
 
     			<div class="col col-md-4">
 
-    				<div class="service-icon-wrapper">
+    				<div class="service-icon-wrapper anchor" data-href="#carousel" data-target="#servicesCarousel" data-slide-to="1">
 
     					<div class="service-icon rucne">
     					
@@ -44,7 +44,7 @@
 
     			<div class="col col-md-4">
 
-    				<div class="service-icon-wrapper">
+    				<div class="service-icon-wrapper anchor" data-href="#carousel" data-target="#servicesCarousel" data-slide-to="2">
 
     					<div class="service-icon demolacne">
     					
@@ -64,7 +64,7 @@
 
     			<div class="col col-md-6">
 
-    				<div class="service-icon-wrapper">
+    				<div class="service-icon-wrapper anchor" data-href="#carousel" data-target="#servicesCarousel" data-slide-to="3">
 
     					<div class="service-icon dovoz">
     					
@@ -80,7 +80,7 @@
 
     			<div class="col col-md-6">
 
-    				<div class="service-icon-wrapper">
+    				<div class="service-icon-wrapper anchor" data-href="#carousel" data-target="#servicesCarousel" data-slide-to="4">
 
     					<div class="service-icon odvoz">
     					
@@ -101,7 +101,7 @@
 
     <div id="carousel" class="section yellow-bg">
 
-        <div id="servicesCarousel" class="carousel slide text-carousel" data-ride="carousel">
+        <div id="servicesCarousel" class="carousel slide text-carousel" data-ride="carousel" data-interval="false">
             <ul class="carousel-indicators">
                 <li data-target="#servicesCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#servicesCarousel" data-slide-to="1"></li>
@@ -130,20 +130,8 @@
                 </div>
 
                 <div class="carousel-item">
-                    <h2 class="title">Odvoz odpadu</h2>
-                    <p>Zabezpečujeme odvoz, nákladku a následnú likvidáciu ťažkých odpadov ako sú tehly, hlina, ale aj ľahkých odpadov ako plasty, drevo, atď...</p>
-                        <!-- <div class="carousel-caption d-none d-md-block">
-                            <h5>My Caption Title (1st Image)</h5>
-                            <p>The whole caption will only show up if the screen is at least medium size.</p>
-                        </div> -->
-                </div>
-
-                <div class="carousel-item">
-                    <h2 class="title">Dovoz materiálu</h2>
-                    <ul>
-                        <li>Štrk, piesok, kamene, suchý betón, zem</li>
-                        <li>Dopravu zabezpečujeme sklápačom</li>
-                    </ul>
+                    <h2 class="title">Stavebné práce</h2>
+                    <p>Zaoberáme sa kompletnou realizáciou rodinných domov alebo menších stavieb ako ploty, terasy, zámkové dlažby, oporné múry apod...</p>
                         <!-- <div class="carousel-caption d-none d-md-block">
                             <h5>My Caption Title (1st Image)</h5>
                             <p>The whole caption will only show up if the screen is at least medium size.</p>
@@ -164,8 +152,20 @@
                 </div>
 
                 <div class="carousel-item">
-                    <h2 class="title">Stavebné práce</h2>
-                    <p>Zaoberáme sa kompletnou realizáciou rodinných domov alebo menších stavieb ako ploty, terasy, zámkové dlažby, oporné múry apod...</p>
+                    <h2 class="title">Dovoz materiálu</h2>
+                    <ul>
+                        <li>Štrk, piesok, kamene, suchý betón, zem</li>
+                        <li>Dopravu zabezpečujeme sklápačom</li>
+                    </ul>
+                        <!-- <div class="carousel-caption d-none d-md-block">
+                            <h5>My Caption Title (1st Image)</h5>
+                            <p>The whole caption will only show up if the screen is at least medium size.</p>
+                        </div> -->
+                </div>
+
+                <div class="carousel-item">
+                    <h2 class="title">Odvoz odpadu</h2>
+                    <p>Zabezpečujeme odvoz, nákladku a následnú likvidáciu ťažkých odpadov ako sú tehly, hlina, ale aj ľahkých odpadov ako plasty, drevo, atď...</p>
                         <!-- <div class="carousel-caption d-none d-md-block">
                             <h5>My Caption Title (1st Image)</h5>
                             <p>The whole caption will only show up if the screen is at least medium size.</p>
@@ -244,67 +244,51 @@
             <div class="pricelist-wrapper">
                 
                 <div class="row">
-                    <div class="col col-md-4 bold">Minibager 3,5t</div>
+                    <div class="col col-md-6 bold text-center">Minibager 3,5t</div>
 
-                    <div class="col col-md-4 bold text-center">28€/hod</div>
-
-                    <div class="col col-md-4 light text-right">cena je uvedená bez DPH</div>
+                    <div class="col col-md-6 bold text-center">28€/hod</div>
                 </div>
 
                 <div class="row">
-                    <div class="col col-md-4 bold">Minibager 1,6t</div>
+                    <div class="col col-md-6 bold text-center">Minibager 1,6t</div>
 
-                    <div class="col col-md-4 bold text-center">20€/hod</div>
-
-                    <div class="col col-md-4 light text-right">cena je uvedená bez DPH</div>
+                    <div class="col col-md-6 bold text-center">20€/hod</div>
                 </div>
 
                 <div class="row">
-                    <div class="col col-md-4 bold">Šmykový nakladač</div>
+                    <div class="col col-md-6 bold text-center">Šmykový nakladač</div>
 
-                    <div class="col col-md-4 bold text-center">25€/hod</div>
-
-                    <div class="col col-md-4 light text-right">cena je uvedená bez DPH</div>
+                    <div class="col col-md-6 bold text-center">25€/hod</div>
                 </div>
 
                 <div class="row">
-                    <div class="col col-md-4 bold">Minibager 3,5t s kladivom</div>
+                    <div class="col col-md-6 bold text-center">Minibager 3,5t s kladivom</div>
 
-                    <div class="col col-md-4 bold text-center">35€/hod</div>
-
-                    <div class="col col-md-4 light text-right">cena je uvedená bez DPH</div>
+                    <div class="col col-md-6 bold text-center">35€/hod</div>
                 </div>
 
                 <div class="row">
-                    <div class="col col-md-4 bold">Nákladné auto</div>
+                    <div class="col col-md-6 bold text-center">Nákladné auto</div>
 
-                    <div class="col col-md-4 bold text-center">dohodou</div>
-
-                    <div class="col col-md-4 light text-right"></div>
+                    <div class="col col-md-6 bold text-center">dohodou</div>
                 </div>
 
                 <div class="row">
-                    <div class="col col-md-4 bold">Hútniaca doska 300kg</div>
+                    <div class="col col-md-6 bold text-center">Hútniaca doska 300kg</div>
 
-                    <div class="col col-md-4 bold text-center">50€/deň</div>
-
-                    <div class="col col-md-4 light text-right">cena je uvedená bez DPH</div>
+                    <div class="col col-md-6 bold text-center">50€/deň</div>
                 </div>
 
                 <div class="row">
-                    <div class="col col-md-4 bold">Hútniaca doska 100kg</div>
+                    <div class="col col-md-6 bold text-center">Hútniaca doska 100kg</div>
 
-                    <div class="col col-md-4 bold text-center">30€/deň</div>
-
-                    <div class="col col-md-4 light text-right">cena je uvedená bez DPH</div>
+                    <div class="col col-md-6 bold text-center">30€/deň</div>
                 </div>
 
                 <div class="row">
-                    <div class="col col-md-4 bold">Hútniaca noha</div>
+                    <div class="col col-md-6 bold text-center">Hútniaca noha</div>
 
-                    <div class="col col-md-4 bold text-center">30€/deň</div>
-
-                    <div class="col col-md-4 light text-right">cena je uvedená bez DPH</div>
+                    <div class="col col-md-6 bold text-center">30€/deň</div>
                 </div>
 
             </div>

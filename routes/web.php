@@ -15,6 +15,5 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/contact', function () {
-	return view('home');
-});
+Route::get('/contact', 'ContactController@show');
+Route::post('/contact', 'ContactController@send');
