@@ -22,7 +22,7 @@ class ContactController extends Controller
 				'msg' => $request->get('message')
 			),
 			function($message) {
-				$message->from("auto@gmail.com");
+				$message->from("no-reply@minibager-levice.sk");
 				$message->to(config('admin.email'))->subject('Nová správa z minibager-levice.sk');
 			});
 
