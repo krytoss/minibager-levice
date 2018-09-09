@@ -34,7 +34,6 @@
 							<div class="form-group">
 	                        <label for="message">Správa</label>
 	                        <textarea class="form-control" rows="3" id="message" name="message"></textarea>
-	                        <span class="help-block">Vaša správa.</span>
 	                        
 	                    </div>
 	 
