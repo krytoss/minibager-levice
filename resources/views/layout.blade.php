@@ -20,7 +20,7 @@
                 <ul>
                     
                     <li>
-                        <a href="#services" class="anchor">
+                        <a href="{{{ (Request::is('contact') ? '/' : '') }}}#services" class="{{{ (Request::is('contact') ? '' : 'anchor') }}}">
                             <span class="menu-text">
                                 SLUŽBY
                             </span>
@@ -28,7 +28,7 @@
                     </li>
 
                     <li>
-                        <a href="#machinery" class="anchor">
+                        <a href="{{{ (Request::is('contact') ? '/' : '') }}}#machinery" class="{{{ (Request::is('contact') ? '' : 'anchor') }}}">
                             <span class="menu-text">
                                 TECHNIKA
                             </span>
@@ -36,7 +36,7 @@
                     </li>
 
                     <li>
-                        <a href="#references" class="anchor">
+                        <a href="{{{ (Request::is('contact') ? '/' : '') }}}#references" class="{{{ (Request::is('contact') ? '' : 'anchor') }}}">
                             <span class="menu-text">
                                 REFERENCIE
                             </span>
@@ -44,7 +44,7 @@
                     </li>
 
                     <li>
-                        <a href="#pricelist" class="anchor">
+                        <a href="{{{ (Request::is('contact') ? '/' : '') }}}#pricelist" class="{{{ (Request::is('contact') ? '' : 'anchor') }}}">
                             <span class="menu-text">
                                 CENNÍK
                             </span>

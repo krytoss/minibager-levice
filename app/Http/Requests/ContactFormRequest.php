@@ -29,4 +29,14 @@ class ContactFormRequest extends FormRequest
             'message' => 'required',
         ];
     }
+
+    public function messages()
+    {
+        return [
+            'email.required' => 'E-mail musí byť vyplnený',
+            'email.email' => 'E-mail musí byť v správnom tvare',
+            'name.required' => 'Meno musí byť vyplnené',
+            'message.required' => 'Správa musí byť vyplnená'
+        ];
+    }
 }
