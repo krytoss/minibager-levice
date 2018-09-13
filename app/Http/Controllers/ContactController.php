@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Notifications\InboxMessage;
 use App\Http\Requests\ContactFormRequest;
 use Mail;
 

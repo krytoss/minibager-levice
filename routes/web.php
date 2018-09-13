@@ -1,5 +1,7 @@
 <?php
 
+use App\Image;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,8 +14,31 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home')
+    	->with('images', Image::all());
+});
+
+Route::get('/home', function () {
+    return view('home')
+    	->with('images', Image::all());
 });
 
 Route::get('/contact', 'ContactController@show');
 Route::post('/contact', 'ContactController@send');
+Auth::routes();
+
+Route::get('/skuska', function() {
+	return view('layouts.app');
+});
+
+Route::get('/logout', 'Auth\LoginController@logout');
+
+Route::get('/editGallery', 'GalleryController@index');
+
+Route::post('/imageUpload', 'GalleryController@upload');
+
+Route::get('/delete/{id}', ['uses' => 'GalleryController@deleteImage']);
+
+Route::get('/admin', function() {
+	return redirect('/login');
+});

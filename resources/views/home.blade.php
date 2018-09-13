@@ -196,15 +196,21 @@
             <div class="row">
 
                 <div class="col col-md-4">
-                    <img src="{{ asset('img/machinery/01.jpg') }}" class="cover-img">
+                    <a href="{{ asset('img/machinery/01.jpg') }}" data-lightbox="machinery-lightbox">
+                        <img src="{{ asset('img/machinery/01.jpg') }}" class="cover-img">
+                    </a>
                 </div>
                 
                 <div class="col col-md-4">
-                    <img src="{{ asset('img/machinery/02.jpg') }}" class="cover-img">
+                    <a href="{{ asset('img/machinery/02.jpg') }}" data-lightbox="machinery-lightbox">
+                        <img src="{{ asset('img/machinery/02.jpg') }}" class="cover-img">
+                    </a>
                 </div>
                 
                 <div class="col col-md-4">
-                    <img src="{{ asset('img/machinery/03.jpg') }}" class="cover-img">
+                    <a href="{{ asset('img/machinery/03.jpg') }}" data-lightbox="machinery-lightbox">
+                        <img src="{{ asset('img/machinery/03.jpg') }}" class="cover-img">
+                    </a>
                 </div>
 
             </div>
@@ -212,15 +218,21 @@
             <div class="row">
 
                 <div class="col col-md-4">
-                    <img src="{{ asset('img/machinery/04.jpg') }}" class="cover-img">
+                    <a href="{{ asset('img/machinery/04.jpg') }}" data-lightbox="machinery-lightbox">
+                        <img src="{{ asset('img/machinery/04.jpg') }}" class="cover-img">
+                    </a>
                 </div>
                 
                 <div class="col col-md-4">
-                    <img src="{{ asset('img/machinery/05.jpg') }}" class="cover-img">
+                    <a href="{{ asset('img/machinery/05.jpg') }}" data-lightbox="machinery-lightbox">
+                        <img src="{{ asset('img/machinery/05.jpg') }}" class="cover-img">
+                    </a>
                 </div>
                 
                 <div class="col col-md-4">
-                    <img src="{{ asset('img/machinery/06.jpg') }}" class="cover-img">
+                    <a href="{{ asset('img/machinery/06.jpg') }}" data-lightbox="machinery-lightbox">
+                        <img src="{{ asset('img/machinery/06.jpg') }}" class="cover-img">
+                    </a>
                 </div>
 
             </div>
@@ -232,6 +244,16 @@
     	<div class="container">
     		
     		<h2 class="title">Referencie</h2>
+
+            <div id="gallery-images" class="row" style="margin-top: 50px">
+                @foreach($images as $img)
+                  <div class="col col-md-1" style="margin-top: 20px">
+                    <a href="{{ $img->file_path }}" data-lightbox="roadtrip">
+                        <img src="{{ $img->file_path }}" style="width: 100%">
+                    </a>
+                  </div>
+                @endforeach
+            </div>
 
     	</div>
     </div>
