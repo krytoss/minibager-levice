@@ -2,6 +2,6 @@
 
 Return [
    
-    'email' => 'kopcsanyiludovit@gmail.com',
+    'email' => 'lukasvarga97@gmail.com',
      
 ];
