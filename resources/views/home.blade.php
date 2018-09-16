@@ -247,7 +247,7 @@
 
             <div id="gallery-images" class="row" style="margin-top: 50px">
                 @foreach($images as $img)
-                  <div class="col col-md-1" style="margin-top: 20px">
+                  <div class="col col-md-2" style="margin-top: 20px">
                     <a href="{{ $img->file_path }}" data-lightbox="roadtrip">
                         <img src="{{ $img->file_path }}" style="width: 100%">
                     </a>
