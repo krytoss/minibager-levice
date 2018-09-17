@@ -133,7 +133,7 @@
                     <div class="col col-md-6 text-center">
                         <a href="tel:+421910256439"><i class="fa fa-mobile-alt" aria-hidden="true"></i>0910 256 439</a>
                         <br><a href="tel:+421910256438"><i class="fa fa-mobile-alt" aria-hidden="true"></i>0910 256 438</a>
-                        <br><a href="mailto:lukasvarga97@gmail.com"><i class="fa fa-envelope"></i>lukasvarga97@gmail.com</a>
+                        <br><a href="mailto:lukasvarga97@gmail.com"><i class="fa fa-envelope"></i>lukasvarga997@gmail.com</a>
                     </div>
 
                     <div class="col col-md-6 text-center">
