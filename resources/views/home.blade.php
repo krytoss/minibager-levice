@@ -114,7 +114,7 @@
                 <div class="carousel-item active">
                     <h2 class="title">Zemné práce</h2>
                     <ul>
-                        <li>Lyžice : 30, 40, 50, 60, 70, 85cm a svahovacie 100 a 150cm.</li>
+                        <li>Lyžice : 30, 50, 60cm a svahovacia.</li>
                         <li>Základy pre domy, plot, garáž, terasu, altánok a podobne</li>
                         <li>Bazény hranatých alebo okrúhlych tvarov, umelé jazierka alebo fontány</li>
                         <li>Drenážne jamy naplnené kameňom veľkej frakcie alebo špeciálnymi konštrukciami</li>
@@ -131,7 +131,7 @@
 
                 <div class="carousel-item">
                     <h2 class="title">Stavebné práce</h2>
-                    <p>Zaoberáme sa kompletnou realizáciou rodinných domov alebo menších stavieb ako ploty, terasy, zámkové dlažby, oporné múry apod...</p>
+                    <p>Zaoberáme sa kompletnou realizáciou rodinných domov alebo menších stavieb ako ploty, terasy, zámkové dlažby, oporné múry a pod...</p>
                         <!-- <div class="carousel-caption d-none d-md-block">
                             <h5>My Caption Title (1st Image)</h5>
                             <p>The whole caption will only show up if the screen is at least medium size.</p>
@@ -165,7 +165,7 @@
 
                 <div class="carousel-item">
                     <h2 class="title">Odvoz odpadu</h2>
-                    <p>Zabezpečujeme odvoz, nákladku a následnú likvidáciu ťažkých odpadov ako sú tehly, hlina, ale aj ľahkých odpadov ako plasty, drevo, atď...</p>
+                    <p>Zabezpečujeme odvoz, nákladku a následnú likvidáciu ťažkých odpadov ako sú tehly, hlina, betón, ale aj ľahkých odpadov ako plasty, drevo, atď...</p>
                         <!-- <div class="carousel-caption d-none d-md-block">
                             <h5>My Caption Title (1st Image)</h5>
                             <p>The whole caption will only show up if the screen is at least medium size.</p>
@@ -247,7 +247,7 @@
 
             <div id="gallery-images" class="row" style="margin-top: 50px">
                 @foreach($images as $img)
-                  <div class="col col-md-2" style="margin-top: 20px">
+                  <div class="col col-md-4" style="margin-top: 20px">
                     <a href="{{ $img->file_path }}" data-lightbox="roadtrip">
                         <img src="{{ $img->file_path }}" style="width: 100%">
                     </a>
