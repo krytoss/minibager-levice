@@ -70,7 +70,7 @@
     					
     					</div>
     					<p class="icon-text">
-    						<strong>Dovoz</strong><br>
+    						<strong>Predaj a dovoz</strong><br>
     						materiálu
     					</p>
     				
@@ -152,7 +152,7 @@
                 </div>
 
                 <div class="carousel-item">
-                    <h2 class="title">Dovoz materiálu</h2>
+                    <h2 class="title">Predaj a dovoz materiálu</h2>
                     <ul>
                         <li>Štrk, piesok, kamene, suchý betón, zem</li>
                         <li>Dopravu zabezpečujeme sklápačom</li>
@@ -311,6 +311,12 @@
                     <div class="col col-md-6 bold text-center">Hútniaca noha</div>
 
                     <div class="col col-md-6 bold text-center">30€/deň</div>
+                </div>
+
+                <div class="row">
+                    <div class="col col-md-6 bold text-center">Predaj štrkov, pieskov</div>
+
+                    <div class="col col-md-6 bold text-center">Dohodou po telefóne</div>
                 </div>
 
             </div>

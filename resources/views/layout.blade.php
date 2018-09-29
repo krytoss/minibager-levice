@@ -139,6 +139,7 @@
                     <div class="col col-md-6 text-center">
                         IČO: 37426079
                         <br>DIČ: 1040092614
+                        <br>Adresa: Dolná Seč 293
                     </div>
 
                 </div>
