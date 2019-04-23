@@ -147,7 +147,7 @@
 
                 <div class="row">
                     
-                    <div class="col col-md-12">
+                    <div class="col col-md-12" style="text-align: center;">
                         
                         <a href="https://www.toplist.cz">
                         <script language="JavaScript" type="text/javascript">
