@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap-grid.min.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/lightbox.min.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
+<meta name="google-site-verification" content="LzKodCZeRxEDlMpU5eWf6yN5bcAEvBQC-x1g2jNzPEs" />
     </head>
     <body>
 
@@ -140,6 +141,29 @@
                         IČO: 37426079
                         <br>DIČ: 1040092614
                         <br>Adresa: Dolná Seč 293
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    
+                    <div class="col col-md-12">
+                        
+                        <a href="https://www.toplist.cz">
+                        <script language="JavaScript" type="text/javascript">
+                        <!--
+                        document.write('<img src="https://toplist.cz/count.asp?id=1790849&logo=mc&http='+
+                        escape(document.referrer)+'&t='+escape(document.title)+
+                        '&wi='+escape(window.screen.width)+'&he='+escape(window.screen.height)+'&cd='+
+                        escape(window.screen.colorDepth)+'" width="88" height="60" border=0 alt="TOPlist" />');
+                        //-->
+                            
+                        </script>
+                        <noscript>
+                            <img src="https://toplist.cz/count.asp?id=1790849&logo=mc" border="0" alt="TOPlist" width="88" height="60" />
+                        </noscript>
+                        </a>
+
                     </div>
 
                 </div>
