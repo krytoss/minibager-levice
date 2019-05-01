@@ -199,18 +199,21 @@
                     <a href="{{ asset('img/machinery/01.jpg') }}" data-lightbox="machinery-lightbox">
                         <img src="{{ asset('img/machinery/01.jpg') }}" class="cover-img">
                     </a>
+                    <span>Takeuchi TB014 - 1,5t</span>
                 </div>
                 
                 <div class="col col-md-4">
                     <a href="{{ asset('img/machinery/02.jpg') }}" data-lightbox="machinery-lightbox">
                         <img src="{{ asset('img/machinery/02.jpg') }}" class="cover-img">
                     </a>
+                    <span>Vibračná doska - 310kg</span>
                 </div>
                 
                 <div class="col col-md-4">
                     <a href="{{ asset('img/machinery/03.jpg') }}" data-lightbox="machinery-lightbox">
                         <img src="{{ asset('img/machinery/03.jpg') }}" class="cover-img">
                     </a>
+                    <span>Bobcat E32 - 3,5t</span>
                 </div>
 
             </div>
@@ -221,18 +224,21 @@
                     <a href="{{ asset('img/machinery/04.jpg') }}" data-lightbox="machinery-lightbox">
                         <img src="{{ asset('img/machinery/04.jpg') }}" class="cover-img">
                     </a>
+                    <span>Bobcat 751 - 2,3t</span>
                 </div>
                 
                 <div class="col col-md-4">
                     <a href="{{ asset('img/machinery/05.jpg') }}" data-lightbox="machinery-lightbox">
                         <img src="{{ asset('img/machinery/05.jpg') }}" class="cover-img">
                     </a>
+                    <span>MAN L200 - nosnosť 4,5t</span>
                 </div>
                 
                 <div class="col col-md-4">
                     <a href="{{ asset('img/machinery/06.jpg') }}" data-lightbox="machinery-lightbox">
                         <img src="{{ asset('img/machinery/06.jpg') }}" class="cover-img">
                     </a>
+                    <span>Dusadlo - 75kg</span>
                 </div>
 
             </div>

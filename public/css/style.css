@@ -139,9 +139,12 @@ h2.title:after {
 	background: linear-gradient(to right, #000 0%, #fbc11f 50%, #000 100%);
 }
 
-#machinery .col,
-#machinery .col img {
+#machinery .col {
 	height: 300px;
+}
+
+#machinery .col image {
+	height: 280px;
 }
 
 #machinery .row {
