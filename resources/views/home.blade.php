@@ -243,6 +243,17 @@
 
             </div>
 
+            <div class="row">
+
+                <div class="col col-md-4">
+                    <a href="{{ asset('img/machinery/07.jpg') }}" data-lightbox="machinery-lightbox">
+                        <img src="{{ asset('img/machinery/07.jpg') }}" class="cover-img">
+                    </a>
+                    <span>MAN L2000 - nosnosť 12t</span>
+                </div>
+
+            </div>
+
     	</div>
     </div>
 
