@@ -166,6 +166,7 @@
                 <div class="carousel-item">
                     <h2 class="title">Odvoz odpadu</h2>
                     <p>Zabezpečujeme odvoz, nákladku a následnú likvidáciu ťažkých odpadov ako sú tehly, hlina, betón, ale aj ľahkých odpadov ako plasty, drevo, atď...</p>
+                    <p>Prenájom kontajnerov 10, 12, 18 m<sup>3</sup></p>
                         <!-- <div class="carousel-caption d-none d-md-block">
                             <h5>My Caption Title (1st Image)</h5>
                             <p>The whole caption will only show up if the screen is at least medium size.</p>
@@ -252,6 +253,13 @@
                     <span>MAN L2000 - nosnosť 12t</span>
                 </div>
 
+                <div class="col col-md-4">
+                    <a href="{{ asset('img/machinery/08.jpg') }}" data-lightbox="machinery-lightbox">
+                        <img src="{{ asset('img/machinery/08.jpg') }}" class="cover-img">
+                    </a>
+                    <span>Caterpillar 432F2</span>
+                </div>
+
             </div>
 
     	</div>
@@ -295,6 +303,12 @@
                 </div>
 
                 <div class="row">
+                    <div class="col col-md-6 bold text-center">Traktorbager</div>
+
+                    <div class="col col-md-6 bold text-center">32€/hod</div>
+                </div>
+
+                <div class="row">
                     <div class="col col-md-6 bold text-center">Šmykový nakladač</div>
 
                     <div class="col col-md-6 bold text-center">25€/hod</div>
@@ -313,19 +327,19 @@
                 </div>
 
                 <div class="row">
-                    <div class="col col-md-6 bold text-center">Hútniaca doska 300kg</div>
+                    <div class="col col-md-6 bold text-center">Hutniaca doska 300kg</div>
 
                     <div class="col col-md-6 bold text-center">50€/deň</div>
                 </div>
 
                 <div class="row">
-                    <div class="col col-md-6 bold text-center">Hútniaca doska 100kg</div>
+                    <div class="col col-md-6 bold text-center">Hutniaca doska 100kg</div>
 
                     <div class="col col-md-6 bold text-center">30€/deň</div>
                 </div>
 
                 <div class="row">
-                    <div class="col col-md-6 bold text-center">Hútniaca noha</div>
+                    <div class="col col-md-6 bold text-center">Hutniaca noha</div>
 
                     <div class="col col-md-6 bold text-center">30€/deň</div>
                 </div>
